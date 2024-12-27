@@ -1,0 +1,6 @@
+ 0 vi /root/myfirstbashscript.sh
+   1 chmod +x myfirstbashscript.sh
+   2 ./myfirstbashscript.sh
+   3 ./myfirstbashscript.sh > export_file.txt
+   4 cat export_file.txt
+   5 history > /tmp/history.txt && export_file /tmp/history.txt
